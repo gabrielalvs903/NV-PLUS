@@ -1,4 +1,6 @@
-:root{
+ 
+    
+ :root{
     --branco-principal:#FFFFFF;
     --cinza-secundario:#C0C0C0;
     --botao-azul:#167BF7;
@@ -136,11 +138,6 @@ margin: 7em 5em 0 5em ;
     margin: 2em 2em;
     padding: 0 2em 0 2em;
 }
-
-.rodape{ 
-
-    
-}
 .rodape__logo{
     
     align-items: center;
@@ -176,8 +173,11 @@ margin: 7em 5em 0 5em ;
     width: 100%;
     background-color: var(--azul--bonito);
 }
+ 
 @media screen and (max-width: 1024px) {
-body{
+  body { font-size: 14px; }
+  .container { width: 100%; padding: 10px; }
+  body{
     background-color: var(--azul--bonito);
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
@@ -305,11 +305,6 @@ margin: 7em 5em 0 5em ;
     margin: 2em 2em;
     padding: 0 2em 0 2em;
 }
-
-.rodape{ 
-
-    
-}
 .rodape__logo{
     
     align-items: center;
@@ -345,175 +340,16 @@ margin: 7em 5em 0 5em ;
     width: 100%;
     background-color: var(--azul--bonito);
 }
-}
-@media screen and (max-width: 1728px) {
-    body{
-    background-color: var(--azul--bonito);
-    color: var(--branco-principal);
-    font-family: var(--fonte-principal);
-    font-size: 16px;
-    font-weight: 400;
-}
-*{ margin: 0;
-    padding: 0;
-}
-.Principal{
-    background-image: url("img/Blue\ and\ White\ Minimalist\ Architecture\ Presentation\ Template.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-items: center;
-    text-align: center;
-}
-.container{
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-.container__botao{
-    background-color: var(--botao-azul);
-    border-radius: 5px;
-    padding: 0.5em;
-    color:var(--branco-principal);
-    display: block;
-    text-decoration: none;
-    margin-bottom: 1.5em;
-}
-.secundario{
-    background-image: url(img/Blue\ and\ White\ Minimalist\ Architecture\ Presentation\ Template\ \(1\).png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-}
-.botao_secundario{
-    background-color: transparent;
-    border: 2px solid var(--branco-principal);
-}
-.container__aviso{
-    font-size: 12px;
-    color: var(--cinza-secundario);
-}
-.container__titulo{ 
-    font-size: 30px;
-    font-weight: 700;
-    padding: 2em 1em;
-    color: var(--azure-escuro);
-}
-.container__img{
-    margin: 1em 0 2em 5em;
-}
-.container__caixa{
-    margin: 0 6em;
-}
-.secundario__imagem{
-width: 50%; 
-margin: 7em 5em 0 5em ;
-}
-.secundario{ 
-    align-items: center;
-    
-}
-.secundaria{
- background-image:url(img/terceira.section.img.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-items: center;
-    
-}
-.descricao__titulo{
-    font-weight: 700;
-    font-size: 48px;
-    margin-bottom: 0.2em;
-}
-.descricao__texto{
-    color: var(--branco-principal);
-}
-.secundario__botao{
-    display: inline-block;
-    margin-top: 1em;
-}
-.container__descricao{
-    padding: 2em;
-}
-.terceiro{ background-image:url(img/4\ paisagismo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-items: center;
-}
-.terceiro__imagem{
-    margin: 2em 8em;
-}
-.container__titulo-vermelho{
-    padding: 1em 0;
-    font-weight: 588;
-    font-size: 40px;
-}
-.container__texto-vermelho{
-    color: var(--cinza-secundario);
-    font-size: 20px;
-    padding: 0.5em 1em 0 0 ;
-}
-.dispositivos__lista{
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    margin: 3em 2em;
-}
-.dispositivos{
-    text-align: center;
-    background-color: var(--azul--bonito);
-    width:100%;
-}
-.dispositivos__titulo{
-    font-size: 48px;
-    color: var(--branco-principal);
-    padding: 2em 1em 1em 0;
-    
-}
-.lista__item{
-    font-size: 32px;
-    color: var(--branco-principal);
-    margin: 2em 2em;
-    padding: 0 2em 0 2em;
-}
 
-.rodape{ 
 
-    
-}
-.rodape__logo{
-    margin: 0 0 0 20em;
-    align-items: center;
-    display: flex;
 
-} 
-.rodape__lista{
-    
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    margin: 1em 2em;
-}
-.rodape__link a{
-    font-size: 20px;
-    color: var(--branco-principal);
-    margin: 0 1.5em;
-    text-decoration: none;
-}
-.rodape__link a:hover{
-    color: var(--azure-escuro); 
-    text-decoration: none;
-}
-.rodape__texto{
-    margin: 2em 2em;
-}
-.container__botao:hover{
-    background-color: var(--botao-azul-efeito);
-    color: var(--cor-de-fundo);
-} 
-.footer{
-    height: 100%;
-    width: 100%;
-    background-color: var(--azul--bonito);
-}
-    
+
+
+
+
+
+
+
+
+
 }
