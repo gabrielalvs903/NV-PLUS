@@ -16,6 +16,7 @@ body{
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+    height: 100%;
 }
 *{ margin: 0;
     padding: 0;
@@ -262,7 +263,7 @@ margin: 7em 5em 0 5em ;
 
  }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
 
    .container__titulo{
     padding: 2em 1em 1em 1em;
@@ -283,7 +284,6 @@ margin: 7em 5em 0 5em ;
         padding: 1em 1em 1em 1em ;
     }
     .terceiro__imagem{
-        padding: ;
           width: 220px;
           height: 210px;
     }
