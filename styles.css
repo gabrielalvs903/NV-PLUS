@@ -262,4 +262,56 @@ margin: 7em 5em 0 5em ;
 
  }
 
-@media screen and (min-width: 600px)
+@media screen and (max-width: 768px) {
+
+   .container__titulo{
+    padding: 2em 1em 1em 1em;
+      white-space: nowrap;
+   }
+    .container__img{
+        display: flex;
+        justify-content: center;
+    }
+    .descricao__titulo {
+        font-size: 25px;
+        font-weight: 700;
+        padding: 0 1em 0 2em;
+    }
+    .descricao__texto{
+        font-size: 14px;
+        font-weight: 500;
+        padding: 1em 1em 1em 1em ;
+    }
+    .terceiro__imagem{
+        padding: ;
+          width: 220px;
+          height: 210px;
+    }
+    .container__titulo-vermelho{
+        font-size: 25px;
+        font-weight: 600;
+        margin: 0 1em 0 1em;
+    }
+    .container__texto-vermelho{
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--branco-principal);
+        padding: 0.5em 0 0 1em ;
+   }
+   .dispositivos__titulo{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 1em 1em 0 2em ;
+   }
+   .dispositivos__lista{
+    padding: 0 1em 0 6em;
+   }
+ .rodape__logo{
+    padding: 0 0 0 18em;
+ }
+ .rodape__link a{
+    font-size: 15px;
+    font-weight: 400;
+ }
+
+}
